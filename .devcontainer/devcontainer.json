@@ -1,14 +1,20 @@
 {
-    "name": "Jupyter Book Dev",
+    "name": "Jupyter Notebooks Only",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
     "features": {
-    "jupyter-python": {}
+      "ghcr.io/devcontainers/features/python:1": {
+        "version": "3.11"
+      },
+      "ghcr.io/devcontainers/features/jupyterlab:1": {}
     },
-    "postCreateCommand": "pip install jupyter-book",
+    "workspaceFolder": "/workspaces/Module1/notebooks",
     "customizations": {
       "vscode": {
-        "extensions": ["ms-toolsai.jupyter"]
+        "extensions": [
+          "ms-python.python",
+          "ms-toolsai.jupyter"
+        ]
       }
-    },
-    "forwardPorts": [8888]
+    }
   }
+  
