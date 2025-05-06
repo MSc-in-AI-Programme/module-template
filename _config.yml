@@ -32,6 +32,10 @@ html:
   use_repository_button: true
 
 launch_buttons:
-  binderhub_url: "https://mybinder.org"
   notebook_interface: "jupyterlab"
-  filepath: "notebooks.ipynb"
+  colab_url: ""
+  binderhub_url: ""
+  thebe: false
+  jupyterhub_url: ""
+  codespaces: true
+
