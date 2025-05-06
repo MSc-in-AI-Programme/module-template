@@ -1,13 +1,7 @@
 {
     "name": "Jupyter Notebooks Only",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "features": {
-      "ghcr.io/devcontainers/features/python:1": {
-        "version": "3.11"
-      },
-      "ghcr.io/devcontainers/features/jupyterlab:1": {}
-    },
-    "workspaceFolder": "/workspaces/Module1/notebooks",
+    "postCreateCommand": "pip install jupyterlab ipywidgets",
     "customizations": {
       "vscode": {
         "extensions": [
@@ -15,6 +9,7 @@
           "ms-toolsai.jupyter"
         ]
       }
-    }
+    },
+    "workspaceFolder": "/workspaces/Module1/notebooks"
   }
   
