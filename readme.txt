@@ -13,4 +13,4 @@ The common phases of this are as follows:
 9. DES makes the new branch live by merging ML-2026 into the ML main branch, which will be linked up to live by Minerva.
 
 The main webiste of the book will exist in:
-https://msc-in-ai-programme.github.io/Module1/notebooks.html
+https://msc-in-ai-programme.github.io/Module1/

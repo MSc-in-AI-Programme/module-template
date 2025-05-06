@@ -2,7 +2,7 @@
     "name": "Jupyter Book Dev",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
     "features": {
-      "ghcr.io/devcontainers/features/jupyter-python:1": {}
+    "jupyter-python": {}
     },
     "postCreateCommand": "pip install jupyter-book",
     "customizations": {
