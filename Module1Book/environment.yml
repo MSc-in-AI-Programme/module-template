@@ -1,0 +1,10 @@
+name: mybook-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyter
+  - numpy
+  - matplotlib
+  - ipywidgets
