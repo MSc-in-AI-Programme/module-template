@@ -1,7 +1,7 @@
 {
     "name": "Jupyter Notebooks Only",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "postCreateCommand": "pip install numpy matplotlib pandas scikit-learn ipywidgets",
+    // "postCreateCommand": "pip install numpy matplotlib pandas scikit-learn ipywidgets",
     "customizations": {
       "vscode": {
         "extensions": [
