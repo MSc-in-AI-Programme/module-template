@@ -1,0 +1,9 @@
+# jupyter-book
+numpy
+matplotlib
+pandas
+scikit-learn
+ipywidgets
+ipkernel
+# seaborn
+# pytorch
