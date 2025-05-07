@@ -1,8 +1,6 @@
 {
     "name": "Jupyter Notebooks Only",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    // "postCreateCommand": "conda env update --file ../.devcontainer/environment.yml --name venv",
-    // "postCreateCommand": "pip install -r requirements.txt",
     "postCreateCommand": "pip install numpy matplotlib pandas scikit-learn ipywidgets",
     "customizations": {
       "vscode": {
