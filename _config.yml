@@ -3,13 +3,13 @@
 
 title: Module 1
 author: The Jupyter Book Community
-logo: logo.png
+logo: logo.svg
 
 html:
   theme:
     name: custom
   custom:
-    logo: "_static/logo.svg"
+    logo: "logo.svg"
     favicon: "_static/favicon.ico"
 
 
