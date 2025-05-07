@@ -18,3 +18,10 @@ https://msc-in-ai-programme.github.io/Module1/
 To build :              jupyter-book build . 
 To create the site:     ghp-import -n -p -f _build/html
 in both cases the terminal must be at the root of the project
+
+In some case you might need: jupyter-book clean . --all && jupyter-book build .
+
+
+
+For rapid testing: jupyter-book build . && python -m http.server --directory _build/html
+then go http://localhost:8000/markdown-notebooks.html

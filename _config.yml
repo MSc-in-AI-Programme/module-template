@@ -6,19 +6,20 @@ author: Dr. Your Name
 
 theme:
   name: "material"
+  custom_dir: "overrides"        # Only once
+  features:
+    - navigation.tabs
+    - navigation.sections
+  font:
+    text: "Inter"
 
 html:
   logo: "_static/logo.svg"
   favicon: "_static/favicon.jpg"
   extra_css:
     - "_static/extra.css"
+    - "static/css/extra.css"     # If this exists in your overrides directory
 
-  font:
-    text: "Inter"
-  custom_dir: "overrides"
-  features:
-    - navigation.tabs
-    - navigation.sections
 
 # repository:
 #   url: https://github.com/YourOrg/YourRepo
