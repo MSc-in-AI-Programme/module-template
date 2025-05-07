@@ -1,61 +1,48 @@
 # Book settings
-title: Module 1 - Introduction to AI
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Module 1- Introduciton to AI
 author: Dr. Your Name
 
-logo: "_static/logo.png"
-favicon: "_static/favicon.jpg"
+# html:
+#   logo: "_static/logo.svg"
+#   favicon: "_static/favicon.jpg"
+#   extra_css:
+#     - "_static/extra.css"
 
-# HTML Output Configuration
-html:
-  favicon: "_static/favicon.jpg"
-  logo: "_static/logo.svg"
-  extra_css:
-    - "_static/css/extra.css"
-  use_repository_button: true
-  use_issues_button: true
+# repository:
+#   url: https://github.com/YourOrg/YourRepo
+#   path_to_book: notebooks
+#   branch: main
 
-# MathJax config (as per mkdocs-style math support)
-math:
-  katex: false
 
-# Markdown parsing and extensions
-parse:
-  myst_enable_extensions:
-    - colon_fence
-    - deflist
-    - html_admonition
-    - html_image
-    - linkify
-    - substitution
-    - dollarmath
-    - amsmath
-    - attrs_inline
 
-# Scripts and JS overrides
-sphinx:
-  extra_extensions:
-    - sphinx_togglebutton
-    - sphinx_copybutton
-  config:
-    html_js_files:
-      - _static/javascript/tablecontentsoverride.js
-      - _static/javascript/config.js
-      - https://polyfill.io/v3/polyfill.min.js?features=es6
-      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    # html_extra_path:
-    #   - _static/videos/my-video.mp4  # If you want to serve the video file
-
-# Repository info
-repository:
-  url: https://github.com/MSc-in-AI-Programme/Module1
-  path_to_book: notebooks
-  branch: main
-
-# Notebooks execution settings
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
 
-# Launch buttons (Codespaces enabled, thebe optional)
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/MSc-in-AI-Programme/Module1 #https://github.com/executablebooks/jupyter-book  # Online location of your book
+  # path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: main # master  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+
 launch_buttons:
   notebook_interface: "jupyterlab"
   colab_url: ""
@@ -64,11 +51,3 @@ launch_buttons:
   jupyterhub_url: ""
   codespaces: true
 
-# Citation support
-bibtex_bibfiles:
-  - references.bib
-
-# LaTeX PDF generation
-latex:
-  latex_documents:
-    targetname: book.tex
