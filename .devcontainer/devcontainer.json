@@ -1,7 +1,7 @@
 {
     "name": "Jupyter Notebooks Only",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "postCreateCommand": "pip install jupyterlab ipywidgets",
+    "postCreateCommand": "conda env update --file ../.devcontainer/environment.yml --name base",
     "customizations": {
       "vscode": {
         "extensions": [
@@ -10,6 +10,8 @@
         ]
       }
     },
-    "workspaceFolder": "/workspaces/Module1/notebooks"
+    "workspaceFolder": "/workspaces/Module1/notebooks",
+    "forwardPorts": [8888],
+    "remoteUser": "vscode"
   }
   
