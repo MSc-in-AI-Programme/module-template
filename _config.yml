@@ -15,11 +15,12 @@ theme:
 
 html:
   logo: "_static/logo.svg"
-  favicon: "_static/favicon.jpg"
+  favicon: "_static/favicon.ico"
   extra_css:
     - "_static/extra.css"
     - "static/css/extra.css"     # If this exists in your overrides directory
-
+  use_repository_button: true
+  use_issues_button: true
 
 # repository:
 #   url: https://github.com/YourOrg/YourRepo
