@@ -14,3 +14,7 @@ The common phases of this are as follows:
 
 The main webiste of the book will exist in:
 https://msc-in-ai-programme.github.io/Module1/
+
+To build :              jupyter-book build . 
+To create the site:     ghp-import -n -p -f _build/html
+in both cases the terminal must be at the root of the project

@@ -4,11 +4,11 @@
 title: Module 1- Introduciton to AI
 author: Dr. Your Name
 
-# html:
-#   logo: "_static/logo.svg"
-#   favicon: "_static/favicon.jpg"
-#   extra_css:
-#     - "_static/extra.css"
+html:
+  # logo: "_static/logo.svg"
+  # favicon: "_static/favicon.jpg"
+  extra_css:
+    - "_static/extra.css"
 
 # repository:
 #   url: https://github.com/YourOrg/YourRepo
