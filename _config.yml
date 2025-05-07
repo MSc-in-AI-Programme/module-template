@@ -1,16 +1,20 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Module 1
-author: The Jupyter Book Community
-logo: logo.svg
+title: My Course Book
+author: Dr. Your Name
 
 html:
-  theme:
-    name: custom
-  custom:
-    logo: "logo.svg"
-    favicon: "_static/favicon.ico"
+  logo: "_static/logo.svg"
+  favicon: "_static/favicon.jpg"
+  extra_css:
+    - "_static/extra.css"
+
+repository:
+  url: https://github.com/YourOrg/YourRepo
+  path_to_book: notebooks
+  branch: main
+
 
 
 # Force re-execution of notebooks on each build.
