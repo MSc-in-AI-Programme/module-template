@@ -1,9 +1,17 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
+title: Module 1: Introduction to AI
 author: The Jupyter Book Community
 logo: logo.png
+
+html:
+  theme:
+    name: custom
+  custom:
+    logo: "_static/logo.svg"
+    favicon: "_static/favicon.ico"
+
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
