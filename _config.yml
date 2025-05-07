@@ -5,7 +5,7 @@ title: Module 1- Introduciton to AI
 author: Dr. Your Name
 
 theme:
-  name: "material"
+  name: "classic"
   custom_dir: "overrides"        # Only once
   features:
     - navigation.tabs
