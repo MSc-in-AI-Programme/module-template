@@ -1,17 +1,14 @@
-# Welcome to your Jupyter Book
+# Welcome to Data Science
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+In this module we cover fundamental topics related to data prcessing and data science.
 
-Check out the content pages bundled with this sample book to see more.
+<!-- check out [the Jupyter Book documentation](https://jupyterbook.org) for more information. -->
 
+## Table of Contents
 ```{tableofcontents}
 ```
 
 ## Open in GitHub Codespaces
+We have put all notebooks in one place for you to be able to run the exercises remptely on codespace.
 
-[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=MSc-in-AI-Programme/Module1)
-
-this is cool
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=MSc-in-AI-Programme/Module1).

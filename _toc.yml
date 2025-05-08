@@ -3,7 +3,39 @@
 
 format: jb-book
 root: intro
+
 chapters:
-- file: markdown
-- file: notebooks/notebook1
-- file: markdown-notebooks
+  - file: unit1/overview
+    sections:
+      - file: unit1/lesson1
+      - file: notebooks/activity1
+      - file: unit1/lesson2
+      - file: notebooks/activity2
+  - file: unit2/overview
+    sections:
+      - file: unit2/lesson3
+      - file: notebooks/activity3
+      - file: unit2/lesson4
+      - file: notebooks/activity4
+  - file: unit3/overview
+    sections:
+      - file: unit3/lesson5
+      - file: notebooks/activity5
+      - file: unit3/lesson6
+      - file: notebooks/activity6
+  - file: unit4/overview
+    sections:
+      - file: unit4/lesson7
+      - file: notebooks/activity7
+      - file: unit4/lesson8
+      - file: notebooks/activity8
+  - file: unit5/overview
+    sections:
+      - file: unit5/lesson9
+      - file: notebooks/activity9
+      - file: unit5/lesson10
+      - file: notebooks/activity10
+  - file: unit6/overview
+    sections:
+      - file: unit6/lesson11
+      - file: notebooks/activity11
