@@ -66,7 +66,8 @@
 
 
 title: Module 1 - Introduction to AI
-author: Dr. Your Name
+author: Dr. A. Altahhan
+logo: _static/logo.png
 
 theme:
   name: "classic"
@@ -78,8 +79,8 @@ theme:
     text: "Inter"
 
 html:
-  logo: "_static/logo.svg"
-  favicon: "favicon.ico"
+  logo: "_static/logo.png"
+  favicon: "_static/favicon.ico"
   extra_css:
     - "_static/extra.css"
   use_repository_button: true
@@ -89,9 +90,17 @@ repository:
   url: https://github.com/MSc-in-AI-Programme/Module-Tempalate
   branch: main
 
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
 
+# Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
     targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
