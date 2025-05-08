@@ -1,4 +1,4 @@
-# Unit6: Optional
+# Unit6: Recommendation Systems
 
 **Learning Objectives**
 
