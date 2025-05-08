@@ -1,0 +1,14 @@
+# .github/workflows/start-dev.yml
+name: Call Central Start Dev
+
+on:
+  workflow_dispatch:
+
+jobs:
+  start:
+    uses: MSc-in-AI-Programme/actions-repo/.github/workflows/start-dev-mt.yml@main
+    with:
+      module_name: "ML"
+      year: "2026"
+    secrets:
+      GH_PAT: ${{ secrets.GH_PAT }}
