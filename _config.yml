@@ -86,7 +86,7 @@ html:
   use_issues_button: true
 
 repository:
-  url: https://github.com/MSc-in-AI-Programme/Module1
+  url: https://github.com/MSc-in-AI-Programme/Module-Tempalate
   branch: main
 
 execute:
