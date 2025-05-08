@@ -79,7 +79,7 @@ theme:
 
 html:
   logo: "_static/logo.svg"
-  favicon: "_static/favicon.jpg"
+  favicon: "_static/favicon.ico"
   extra_css:
     - "_static/extra.css"
   use_repository_button: true
