@@ -1,4 +1,4 @@
-.top-banner {
+/* .top-banner {
   background-color: #b1001d;
   color: white;
   text-align: center;
@@ -12,4 +12,16 @@
 
 body {
   margin-top: 60px; /* Adjust if necessary to prevent content overlap */
+/* }  */
+
+
+
+/* Main navbar elements */
+.navbar {
+    background-color: #b31b1b !important;
+}
+
+/* Adjusting the mobile toggle button */
+.navbar-toggler {
+    background-color: #b31b1b !important;
 }
