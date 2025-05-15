@@ -17,3 +17,5 @@ In this module we cover fundamental topics related to data prcessing and data sc
 We have put all notebooks in one place for you to be able to run the exercises remptely on codespace.
 
 [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=MSc-in-AI-Programme/Module1).
+
+new
