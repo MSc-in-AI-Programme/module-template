@@ -79,10 +79,9 @@ theme:
     text: "Inter"
 
 html:
+  extra_css: ["custom.css"]
   logo: "_static/logo.png"
   favicon: "_static/favicon.ico"
-  extra_css:
-    - "_static/extra.css"
   use_repository_button: true
   use_issues_button: true
 
