@@ -104,3 +104,7 @@ latex:
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
   - references.bib
+
+# # Use Harvard-style (author-date) citation format
+# bibtex_reference_style: author_year
+

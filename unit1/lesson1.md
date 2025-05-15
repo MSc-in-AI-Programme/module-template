@@ -17,6 +17,14 @@ Write a brief introduction that:
 - Links to previous concepts covered 
 - Outlines what will be covered in this section 
 
+## Citations
+You can also cite references that are stored in a `bibtex` file. For example, {cite}`ruby`.
 
 ### Now it is time to apply
 [Activity 1](/notebooks/activity1.ipynb)
+
+
+
+
+```{bibliography}
+```

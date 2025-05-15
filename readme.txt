@@ -19,7 +19,7 @@ To build :              jupyter-book build .
 To create the site:     ghp-import -n -p -f _build/html
 in both cases the terminal must be at the root of the project
 
-In some case you might need: 
+In some cases, when you want to clean build and deploy then you can do: 
     jupyter-book clean . --all && jupyter-book build . && ghp-import -n -p -f _build/html
     jupyter-book clean . --all && jupyter-book build . && python3 -m http.server -d _build/html
 
