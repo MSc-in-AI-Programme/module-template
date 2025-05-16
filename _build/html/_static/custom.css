@@ -1,27 +1,163 @@
-/* .top-banner {
-  background-color: #b1001d;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-weight: bold;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+/* Basic theme colors (not all will apply in Jupyter Book) */
+:root {
+  --primary-color: #916f40;
+  --accent-color: #b31b1b;
 }
 
 body {
-  margin-top: 60px; /* Adjust if necessary to prevent content overlap */
-/* }  */
-
-
-
-/* Main navbar elements */
-.navbar {
-    background-color: #b31b1b !important;
+  font-family: 'Inter', sans-serif !important;
 }
 
-/* Adjusting the mobile toggle button */
-.navbar-toggler {
-    background-color: #b31b1b !important;
+/* Header (top navbar) */
+.bd-header, .navbar, .navbar-nav {
+  background-color: #b31b1b !important;
+}
+
+.navbar a.nav-link, .navbar-brand {
+  color: white !important;
+  font-weight: 600;
+}
+
+/* Grid width */
+.bd-container {
+  max-width: 1600px;
+}
+
+/* Footer */
+.bd-footer {
+  margin-top: 2.5rem;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+h1 {
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+  font-weight: 500 !important;
+}
+
+/* Links */
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #b31b1b;
+}
+
+/* Logo */
+.navbar-brand img {
+  display: none;
+}
+
+/* Sidebar adjustments */
+#site-navigation {
+  border-right: 1px solid var(--primary-color);
+}
+
+/* Admonitions */
+.admonition, details {
+  font-size: 0.75rem;
+}
+
+.admonition-title, summary {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.admonition-title::before,
+summary::before {
+  top: 0.5rem;
+}
+
+/* Custom admonition: algorithm-heading */
+.admonition.algorithm-heading, details.algorithm-heading {
+  border: 2px solid #ccc;
+  overflow-x: scroll;
+}
+
+.admonition.algorithm-heading > .admonition-title,
+details.algorithm-heading > summary {
+  background-color: #eee;
+  min-width: 1200px;
+}
+
+/* Custom admonition: algorithm */
+.admonition.algorithm, details.algorithm {
+  border: 2px solid #ccc;
+  background-color: #fafafa;
+  min-width: 1200px;
+  overflow: visible;
+  box-shadow: none;
+}
+
+/* Custom admonition: textdescription */
+.admonition.textdescription, details.textdescription {
+  background-color: #eee;
+  border: none;
+  box-shadow: none;
+  margin-top: 0;
+}
+
+.admonition.textdescription > .admonition-title,
+details.textdescription > summary {
+  background-color: #fff;
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.admonition.textdescription > .admonition-title::before,
+details.textdescription > summary::before {
+  display: none;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #b31b1b;
+}
+
+blockquote p {
+  color: #4f4f4f;
+}
+
+/* Tables */
+table {
+  font-size: 0.7rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background: #212121;
+  color: white;
+  font-size: 16px;
+}
+
+thead th:not(:last-of-type),
+tbody td:not(:last-of-type) {
+  border-right: 1px solid #ccc;
+}
+
+tbody td {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Equation labels */
+span.equation-label {
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Jupyter output blocks */
+.custom-jn-output {
+  font-family: SFMono-Regular, Consolas, Menlo, monospace;
+  font-size: 0.7rem;
 }

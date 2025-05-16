@@ -69,17 +69,19 @@ title: Module 1 - Introduction to AI
 author: Dr. A. Altahhan
 logo: _static/logo.png
 
-theme:
-  name: "classic"
-  custom_dir: "overrides"        # Only once
-  features:
-    - navigation.tabs
-    - navigation.sections
-  font:
-    text: "Inter"
+# theme:
+#   name: "classic"
+#   custom_dir: "overrides"        # Only once
+#   features:
+#     - navigation.tabs
+#     - navigation.sections
+#   font:
+#     text: "Inter"
 
 html:
-  extra_css: ["custom.css"]
+  theme:
+    name: pydata_sphinx_theme
+  custom_css: custom.css
   logo: "_static/logo.png"
   favicon: "_static/favicon.ico"
   use_repository_button: true

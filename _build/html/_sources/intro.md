@@ -1,7 +1,3 @@
-<div class="top-banner">
-  This is UNIT ABC123 - University of Leeds
-</div>
-
 
 # Welcome to Data Science
 
