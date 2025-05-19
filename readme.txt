@@ -28,3 +28,13 @@ In some cases, when you want to clean build and deploy then you can do:
 
 For rapid testing: jupyter-book build . && python -m http.server --directory _build/html
 then go http://localhost:8000/markdown-notebooks.html
+
+
+better to:
+pip install watchdog
+    chmod +x serve.sh
+    ./serve.sh
+
+then anytime you change and save the localhost will be automatically updated.
+to kill all 8000 ports do: 
+    lsof -ti :8000 | xargs kill
