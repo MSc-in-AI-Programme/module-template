@@ -4,18 +4,10 @@ title: Module 1 - Introduction to AI
 author: Dr. A. Altahhan
 logo: _static/logo.png
 
-theme: jekyll-theme-minimal
-
-# theme:
-#   name: "classic"
-#   custom_dir: "overrides"        # Only once
-#   features:
-#     - navigation.tabs
-#     - navigation.sections
-#   font:
-#     text: "Inter"
 
 html:
+  theme:
+    name: "alabaster"
   # custom_css: custom.css
   extra_css: ["custom.css"]
   logo: "_static/logo.png"
