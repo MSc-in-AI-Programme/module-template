@@ -2,9 +2,9 @@ title: Module 1 - Introduction to AI
 author: Dr. A. Altahhan
 logo: _static/logo.png
 
+  
 html:
-  theme:
-    name: "alabaster"
+
   # custom_css: custom.css
   extra_css: ["custom.css"]
   logo: "_static/logo.png"
