@@ -1,0 +1,22 @@
+html:
+  favicon: images/favicon.ico  # optional
+  extra_css:
+    - custom.css
+  baseurl: ""
+  theme:
+    name: sphinx_book_theme
+    options:
+      path_to_docs: ""
+      repository_url: https://github.com/yourrepo/yourbook
+      repository_branch: main
+      use_edit_page_button: false
+      use_repository_button: false
+      use_issues_button: false
+      show_navbar_depth: 2
+      home_page_in_navbar: true
+      extra_navbar: ""
+      extra_footer: ""
+      launch_buttons:
+        colab_url: ""
+        binderhub_url: ""
+        thebe: false
